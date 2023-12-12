@@ -28,8 +28,8 @@ function App() {
         <Router>
           <Navbar/>
           <Routes>
-          <Route path='/' element={ <Home/> }></Route>
-          <Route path='/AboutUs' element={ <About/> }></Route>
+          <Route path='/VinaSystue' element={ <Home/> }></Route>
+          <Route path='/VinaSystue/AboutUs' element={ <About/> }></Route>
 
           </Routes>
 
