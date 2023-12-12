@@ -9,9 +9,9 @@ export const Navbar = () => {
 
   let links = [
     // {name:"Om Vina Systue", link:"/AboutUs"},
-    {name:"Priser", link:"VinaSystue/#prices"},
-    {name:"Åbningstider", link:"VinaSystue/#openinghours"},
-    {name:"Kontakt", link:"VinaSystue/#contact"},
+    {name:"Priser", link:"/VinaSystue/#prices"},
+    {name:"Åbningstider", link:"/VinaSystue/#openinghours"},
+    {name:"Kontakt", link:"/VinaSystue/#contact"},
   ]
 
   return (  
