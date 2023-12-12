@@ -3,7 +3,7 @@ import { ImageSlider } from '../components/ImageSlider'
 import Hero from '../components/Hero'
 import Prices from '../components/Prices'
 import OpeningHours from '../components/OpeningHours'
-import Contact from '../components/Contact'
+import Contact from '../components/Contact' 
 
 
 export const Home = () => {
@@ -85,7 +85,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}],
-    image: '/blazer.svg'
+    image: '/assets/blazer.svg'
   }
   allDecs.push(blazerDesc)
 
