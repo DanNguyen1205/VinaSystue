@@ -1,6 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import Facebook from "../images/svg/facebook-circle.svg"
+
 
 
 export const Contact = () => {
@@ -9,7 +11,7 @@ export const Contact = () => {
 
         <h1 className='text-2xl font-extrabold'>Kontakter</h1>  
         <a href="https://www.facebook.com/vinasystueodense/">
-        <img className="h-16" src="/facebook-circle.svg" alt=""/>
+        <img className="h-16" src={Facebook} alt=""/>
         </a>
 
         <div>

@@ -5,6 +5,16 @@ import Prices from '../components/Prices'
 import OpeningHours from '../components/OpeningHours'
 import Contact from '../components/Contact' 
 
+import Blazer from "../images/svg/blazer.svg"
+import Curtains from "../images/svg/curtains.svg"
+import Dress from "../images/svg/dress.svg"
+import Jeans from "../images/svg/jeans.svg"
+import Outerwear from "../images/svg/outerwear.svg"
+import Pants from "../images/svg/pants.svg"
+import Shirt from "../images/svg/shirt.svg"
+
+
+
 
 export const Home = () => {
   const allDecs = [];
@@ -18,7 +28,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}],
-    image: "/pants.svg"
+    image: Pants
   }
   allDecs.push(pantsDesc)
 
@@ -30,7 +40,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}],
-    image: '/shirt.svg'
+    image: Shirt
   }
   allDecs.push(shirtsDesc)
 
@@ -43,7 +53,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}], 
-    image: '/jeans.svg'
+    image: Jeans
 
   }
   allDecs.push(jeansDesc)
@@ -57,7 +67,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}],
-    image: '/dress.svg'
+    image: Dress
 
   }
   allDecs.push(dressesDesc)
@@ -71,7 +81,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}],
-    image: '/outerwear.svg'
+    image: Outerwear
 
   }
   allDecs.push(outerwearDesc)
@@ -85,7 +95,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}],
-    image: '/assets/blazer.svg'
+    image: Blazer
   }
   allDecs.push(blazerDesc)
 
@@ -98,7 +108,7 @@ export const Home = () => {
     {work: "Ind i liv fra", price: "0kr"},
     {work: "Lynløs", price: "0kr"},
     {work: "Fodvidde fra", price: "0kr"}],
-    image: '/curtains.svg'
+    image: Curtains
   }
   allDecs.push(drapesDesc)
 
