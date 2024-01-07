@@ -1,3 +1,3 @@
 React project Vite deployed to Github pages. 
 
-https://hotdogchamp.github.io/VinaSystue/
+https://dannguyen1205.github.io/VinaSystue/
